@@ -1,0 +1,148 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>||</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/time.js"></script>
+<style>
+@import url(http://fonts.googleapis.com/css?family=Biryani:900);
+@import url(http://fonts.googleapis.com/css?family=Play);
+
+
+body {
+  padding-top:50px;
+  background-color:#000;
+}
+.row {
+  /*border:1px solid red;*/
+}
+h2,
+h2 > small {
+  color:#fff;
+  font-family:'Play';
+}
+.time-display {
+  /*font-family:'LCD';*/
+	font-size:5em;
+	color:#fff;
+	/*z-index:-1;*/
+  text-align: right;
+  font-family:'Play';
+  font-weight: bold;
+}
+.columns {
+  /*border:1px solid red;*/
+ }
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+#bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+#search {
+  padding-top:10px;
+}
+.search
+{
+  padding-bottom: 0px;
+}
+
+.search li
+{
+	list-style: none;
+	margin: 0 0 0em 0;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+.search time
+{
+	margin-left: 0em;
+	font-size: .75em;
+	color: #fafafa;
+}
+
+/*the form*/
+#search
+{
+	font-family: "ff-meta-web-1", "ff-meta-web-2",Myriad Pro,san-serif;
+	width: 100%;
+	/*max-width: 110px;*/
+	margin: 0px auto 0;
+	margin-left: -1px;
+}
+
+#search input
+{
+	width: 100%;
+	font-family: "ff-meta-web-1", "ff-meta-web-2",Myriad Pro,sans-serif;
+	background-color: #fafafa;
+	border: 1px solid #9a9a9a;
+	/*padding: 6px 8%;*/
+	color: #2b2b2b;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	border-radius: 8px;
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.5);
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,.5);
+	box-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+#search input:focus
+{
+	outline: none;
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 0 8px #4f4f4f;
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 0 8px #4f4f4f;
+	box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 0 12px #4f4f4f;
+}
+</style>
+<body>
+  <div id="bg">
+    <img id="bgimg" src="" alt="">
+  </div>
+  <div class="row">
+    <div class="medium-3 columns text-right">
+      <h2>sup?</h2>
+    </div>
+    <div class="medium-9 columns">
+      <form method="get" id="search" action="http://duckduckgo.com/">
+      <input type="hidden" name="ka" value="h"/>
+      <input type="hidden" name="k7" value="#3f3f3f"/>
+      <input type="hidden" name="kj" value="#3f3f3f"/>
+      <input type="hidden" name="ky" value="#222222"/>
+      <input type="hidden" name="kx" value="b"/>
+      <input type="hidden" name="kt" value="Helvetica"/>
+      <input type="text" name="q" maxlength="255" placeholder="find yourself.."/>
+      <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+      </form>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-12 medium-12 small-12 columns">
+      <div id="timediv">
+		    <p id="time" class="time-display"></p>
+      </div>
+    </div>
+  </div>
+  <script src="js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400);
+@import url(http://adrianstonge.tk/lcd.woff2);
+/*@font-face {
+	font-family: 'LCD';
+	font-weight: 200;
+	font-style: normal;
+	src: url(http://adrianstonge.tk/lcd.woff2) format('woff2');
+}*/
+
+body {
+	margin-top:0px;
+	padding:10px;
+	background-color:#848A6B;
+	color:#303225;
+	#text-align:center;
+}
+a {
+	text-decoration: none;
+	color:#303225;
+	font-weight:bold;
+}
+#wrapper {
+	display:block;
+	border:1px;
+	width:90%;
+	margin:0px auto;
+}
+#header {
+	font-family: 'Source Code Pro';
+	border:1px;
+	border-bottom-style:solid;
+
+}
+#content {
+	width:75%;
+	border:2px;
+	float:left;
+}
+
+#sidebar {
+	width:23%;
+	border:2px;
+	float:right;
+}
+#delimiter {
+	clear:both;
+}
+#footer {
+	border:2px;
+}
+
+#postdate {
+	border:1px;
+	background-color:#838564;
+	font-family:'Source Code Pro';
+	color: #303225;
+}
+#posttext {
+	#background-color:#838564;
+	padding-left:10px;
+	margin:0px;
+	height:50%;
+}
+
+.title {
+	font-size: 5em;
+	#font-family: 'Source Code Pro';
+	font-family:'LCD';
+	text-shadow: 0.05em 0.05em #63645e;
+}
+li {
+	font-family: 'Source Code Pro';
+}
+
+hr {
+	border:1px dotted;
+}
+h1,h2,h4,h5 {
+	font-family: 'Source Code Pro';
+}
+p {
+	font-family: 'Source Code Pro';
+}

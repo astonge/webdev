@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900,700,600,500,300);
+
+body {
+  font-family:'Source Code Pro';
+  font-weight:400;
+  margin-top:20px;
+  margin-left:20px;
+}
+.columns {
+  /*border:1px solid red;*/
+}
+#posttext a:hover,
+#posttext a:active,
+#posttext a:focus,
+#posttext a:visited,
+#posttext a {
+  color:#000000;
+  text-decoration: underline;
+  font-weight:500;
+}
+.title {
+  font-family:'Source Code Pro';
+  font-weight:900;
+  line-height:0.2;
+}
+.header {
+  width:75%;
+  align:left;
+}
+small,
+.post_header {
+  font-family:'Source Code Pro';
+  /*line-height: 0.5;*/
+  line-height: 1;
+}
+small {
+  font-size: 0.77em;
+}
+.hr_sidebar {
+  width:55px;
+}
+a,
+a:hover {
+  color:#000000;
+}
+.unstyled {
+  list-style: none;
+  line-height: 1.2;
+}
+li {
+  font-family: 'Source Code Pro';
+  font-weight: 400;
+}
+.sidebar_header {
+  font-family:'Source Code Pro';
+  font-weight: 600;
+  font-size:1.4em;
+}
