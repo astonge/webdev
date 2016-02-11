@@ -1,0 +1,69 @@
+CODE SNIPPETS
+
+/*Media query to change large-6/large-6 columns.*/
+
+@media screen and (max-width: 1015px) {
+  #info {
+    text-align: left !important;
+  }
+}
+
+// ------------------------------------
+// Change width to full page
+.row {
+  max-width:83rem;
+}
+
+
+/*------------------------------------*/
+section {border:1px solid blue;}
+.small-1,.small-2,.small-3,.small-4,.small-5,.small-6,.small-7,.small-8,.small-9,.small-10,.small-11,.small-12,
+.large-1,.large-2,.large-3,.large-4,.large-5,.large-6,.large-7,.large-8,.large-9,.large-10,.large-11,.large-12 {border:1px solid red;}
+
+// ----------------------------------------------
+// Page break
+<section class="page-divide">
+ <div class="row">
+ </div>
+</section>
+
+CSS:
+.page-divide {
+  height:50px;
+  background-color:#9C89B8;
+}
+
+//------------------------------------------------
+
+// a Links
+a:hover,
+a:focus,
+a {
+  color:#7b639f;
+}
+a:hover {
+  text-decoration:underline;
+}
+
+
+//-----------------------------------------------------
+// button
+button:hover,
+button:focus,
+button {
+  color:#ffffff;
+  background-color: #7b639f;
+}
+
+//------------------------------------------------------
+
+.th {
+  border: solid 4px #FFFFFF;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  line-height: 0;
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+//---------------------------------------
