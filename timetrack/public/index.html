@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="libs/materialize/dist/css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/style.css"/>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     </head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col s12">
+					<div class="card-panel light-blue lighten-1"><strong><h3>Time Tracker</h3></strong></div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="input-field col s12 m6 l6">
+					<i class="material-icons prefix">mode_edit</i>
+					<input id="task_title" id="icon_prefix" type="text" class="validate">
+					<label for="icon_prefix">Task Title</label>
+					<!-- <a id="set_title" class="waves-effect waves-teal btn-flat">SET</a> -->
+					<a id="clear_title" class="waves-effect waves-teal btn-flat">CLEAR</a>
+					<h1 class="left-align">
+					<span id="hours">00</span> : <span id="minutes">00</span> : <span id="seconds">00</span> </h1>
+					<a id="start_stop_btn" class="waves-effect waves-light green btn">START</a>
+					<a id="reset_btn" class="waves-effect waves-light light-blue btn ">RESET</a>
+					<a id="save_btn" class="waves-effect waves-light light-blue btn">SAVE</a>
+				</div>
+				<div class="input-field col s12 m6 l6">
+					<ul class="collection with-header hide">
+						<li class="collection-header"><h4>Saved Task Times</h4></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+			
+		<!-- import jquery -->
+		<script type="text/javascript" src="libs/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="libs/materialize/dist/js/materialize.js"></script>
+		<script type="text/javascript" src="js/util.js"></script>
+		<script type="text/javascript" src="js/timer.js"></script>
+
+	</body>
+</html>

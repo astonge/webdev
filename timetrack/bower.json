@@ -1,0 +1,13 @@
+{
+  "name": "timetrack",
+  "authors": [
+    "Adrian St. Onge <astonge@gmail.com>"
+  ],
+  "description": "Track your time.",
+  "main": "index.html",
+	"directory":"libs",
+	"dependencies": {
+		"jquery":"latest",
+		"materialize":"latest"
+	}
+}
