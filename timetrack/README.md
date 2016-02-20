@@ -14,3 +14,6 @@ Times are savable using localStorage.
 - Run "bower install"
 - View public/index.html in your browser of choice.
 
+
+### Screenshot
+![Time Track Screenshot](https://raw.githubusercontent.com/astonge/webdev/master/screenshots/timetrack_ss.png)
