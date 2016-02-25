@@ -1,3 +1,6 @@
+/*
+	Adrian St. Onge
+*/
 function updateClock () {
  	  var currentTime = new Date ( );
   	var currentHours = currentTime.getHours ( );
