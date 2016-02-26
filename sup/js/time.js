@@ -1,6 +1,3 @@
-/*
-	Adrian St. Onge
-*/
 function updateClock () {
  	  var currentTime = new Date ( );
   	var currentHours = currentTime.getHours ( );
@@ -19,6 +16,10 @@ function updateClock () {
   	var currentTimeString = currentHours + ":" + currentMinutes + "." + currentSeconds + "<small>" + timeOfDay + "</small>";
    	$("#time").html(currentTimeString);
  }
+
+/*
+	Adrian St. Onge
+*/
 
 function randimg() {
   var images = [
